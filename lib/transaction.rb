@@ -1,5 +1,9 @@
 class Transaction
-  def deposit
-    0
+  
+  attr_reader :deposit
+  
+  def initialize
+    @deposit = 0
   end
+  
 end
