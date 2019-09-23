@@ -1,0 +1,32 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/student/Projects/week_10/bank_challenge/spec/bank_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Projects/week_10/bank_challenge/lib/bank.rb": [
+        1,
+        null
+      ],
+      "/Users/student/Projects/week_10/bank_challenge/spec/transaction_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1569248309
+  }
+}
