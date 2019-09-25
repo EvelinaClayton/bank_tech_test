@@ -24,8 +24,8 @@ class Bank
     @balance -= amount.to_f
     @statement << [
       Time.now,
-      amount.to_f,
       '',
+      amount.to_f,
       balance
     ]
   end
