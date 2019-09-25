@@ -15,4 +15,13 @@ RSpec.describe Bank do
       expect(subject.balance).to eq 1000
     end
   end
+
+  describe '#withdraw' do
+    it 'deducts amount from balance' do
+      # deducts money
+      subject.withdraw(-500)
+      # check current balance
+      expect(subject.balance).to eq 500
+    end
+  end
 end 
