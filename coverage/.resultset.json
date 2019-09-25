@@ -10,6 +10,14 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/student/Projects/week_10/bank_challenge/spec/transaction_spec.rb": [
@@ -23,6 +31,6 @@
         null
       ]
     },
-    "timestamp": 1569446864
+    "timestamp": 1569447459
   }
 }
