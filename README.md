@@ -17,3 +17,33 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 ```
+
+## To access the project
+
+# To Install:
+1. Fork this repo and clone to your local machine
+2. Run 'gem install bundle'
+3. To check specifics of the project, run 'irb'
+  - then 'require './lib/bank.rb'
+  - 'bank = Bank.new'
+You should now be able to use the application to access: deposit, withdraw.
+
+# To check the tests:
+Assuming that the project has now been fully forked and cloned to your local machine.
+
+1. In your command line run 'gem install bundle'
+2. Run 'rspec'
+3. To check formatting, please run 'rubocop'
+
+## Map of the project
+
+| Bank            |             |
+|-----------------|-------------|
+| deposit         | balance     |
+| withdraw        | balance     |
+| print_statement | statement   |
+
+| Statement_History |          |
+|-------------------|----------|
+| new               |          |
+| print_statements  |          |

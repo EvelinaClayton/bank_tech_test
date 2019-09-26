@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 RSpec.describe Bank do
@@ -30,10 +32,10 @@ RSpec.describe Bank do
     it 'shows a statement from the users actions' do
       subject.deposit(1000)
       subject.withdraw(500)
-      
+
       # Title
       expect(subject.statement[0]).to eq(
-        ['date', 'credit', 'debit', 'balance']
+        %w[date credit debit balance]
       )
 
       # Deposit:
@@ -49,4 +51,4 @@ RSpec.describe Bank do
       expect(subject.statement[2][3]).to eq 500.00
     end
   end
-end 
+end

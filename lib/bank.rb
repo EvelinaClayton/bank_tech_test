@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'time'
 
 class Bank
@@ -6,7 +8,7 @@ class Bank
   def initialize
     @balance = 0.00
     @statement = [
-      ['date', 'credit', 'debit', 'balance']
+      %w[date credit debit balance]
     ]
   end
 
